@@ -29,5 +29,5 @@ jobs:
           username: ${{ secrets.NAS_USER }}
           password: ${{ secrets.NAS_PASSWORD }}
           port: ${{ secrets.NAS_PORT }}
-          source: "./"
+          source: "src/"
           target: ${{ secrets.NAS_TARGET_DIRECTORY }}"

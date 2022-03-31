@@ -21,17 +21,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      # - name: scp to Nas
-      #   uses: appleboy/scp-action@v1.6.3
-      #   with:
-      #     host: ${{ secrets.NAS_HOST }}
-      #     username: ${{ secrets.NAS_USER }}
-      #     password: ${{ secrets.NAS_PASSWORD }}
-      #     port: ${{ secrets.NAS_PORT }}
-      #     source: "src/index.html"
-      #     target: ${{ secrets.NAS_TARGET_DIRECTORY }}"
       
       - name: another scp
         uses: cross-the-world/ssh-scp-ssh-pipelines@v1.1.4
@@ -45,6 +34,4 @@ jobs:
           # ssh remote password
           pass: ${{ secrets.NAS_PASSWORD }} # optional
           scp: |
-            ./src/index.html => ~/
-          # local: "./src/index.html"
-          # remote: '~/'
+            ./src/ => /volume1/docker/phonetic-symbol/

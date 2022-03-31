@@ -34,4 +34,4 @@ jobs:
           # ssh remote password
           pass: ${{ secrets.NAS_PASSWORD }} # optional
           scp: |
-            ./src/ => /volume1/docker/phonetic-symbol/
+            ./src/ => /volume1/docker/phonetic-symbol/html/

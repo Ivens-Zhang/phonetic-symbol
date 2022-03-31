@@ -7,3 +7,5 @@
 在这里推荐一篇文章，文章为：[《CSS功能类与关注点分离》](https://tailwindchina.com/translations/css-utility-classes-and-separation-of-concerns.html#%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5-%E8%AF%AD%E4%B9%89-css)，它的作者就是 `Tailwind.css` 的作者 `Adam Wathan`。
 
 音频素材取自于 BiliBili：https://www.bilibili.com/video/BV1Y4411M7Ac?from=search&seid=12717483388753801542
+
+MP4 => MP3 转换工具：https://www.aconvert.com/cn/audio/mp4-to-mp3/

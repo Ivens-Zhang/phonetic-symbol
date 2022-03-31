@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: scp to Nas
-        uses: appleboy/scp-action@master
+        uses: appleboy/scp-action@v1.6.3
         with:
           host: ${{ secrets.NAS_HOST }}
           username: ${{ secrets.NAS_USER }}

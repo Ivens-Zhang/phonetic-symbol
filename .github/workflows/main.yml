@@ -44,5 +44,7 @@ jobs:
           user: ${{ secrets.NAS_USER }}
           # ssh remote password
           pass: ${{ secrets.NAS_PASSWORD }} # optional
-          local: "./src/index.html"
-          remote: '~/'
+          scp: |
+            ./src/index.html => ~/
+          # local: "./src/index.html"
+          # remote: '~/'

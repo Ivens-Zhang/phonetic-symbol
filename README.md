@@ -1,5 +1,17 @@
 # 英音音标发音表
 ---
+
+
+
+![Phonemtics-symbols](./docs/images/Phonemtic-symbols.png)
+
+
+-------------------------
+## 英音音标发音表网址(https://april727.github.io/Phonemtic-chart/)
+
+
+
+
 ## 素材来源
 
 1. 元音素材

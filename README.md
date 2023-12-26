@@ -7,7 +7,7 @@
 
 
 -------------------------
-## 英音音标发音表网址(https://april727.github.io/Phonemtic-chart/)
+## 英音音标发音表网址(https://april727.github.io/Phonetic-chart/)
 
 
 

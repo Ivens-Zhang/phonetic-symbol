@@ -1,12 +1,17 @@
 # 英音音标发音表
 ---
 
-
+## 一. Phonemtics-symbols
 
 ![Phonemtics-symbols](./docs/images/Phonemtic-symbols.png)
 
 
 -------------------------
+## 二. Vowel-diagram
+![Vowel-diagram](./docs/images/Vowel-diagram.png)
+
+-----------------------
+
 ## 英音音标发音表网址(https://april727.github.io/Phonemtic-chart/)
 
 
